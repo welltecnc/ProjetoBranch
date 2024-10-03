@@ -6,6 +6,31 @@ for(let i=0; i<10;i++){
 
 let f =0;
 while (f <10){
-    console.log(f)
+    //console.log(f)
     f++;
 }
+//do while
+let w=0;
+
+do{
+    //console.log(w);
+    w++;
+}
+while(w<5);
+
+//funções 
+
+function Ola(nome){
+    // `` ( strings literal ou template string ${} chama a variavel)
+     console.log(`Seja bem vindo a ${nome}`)
+      alert(`seja bem vindo a ${nome}`)
+      document.write(`seja bem vindo a ${nome}`)
+}
+//executando a função Ola passando o valor 
+Ola("fiap")
+
+
+
+
+
+
